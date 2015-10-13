@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\authServices\Branches\2015.Q3.R1\Automation\AuthenticationWebsite\AuthenticationWebsite\AuthenticationWebsite\bin\Debug\AuthenticationWebsite.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-09-28" time="18:20:31">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="LNGRDUL-7006596" user="MULINTHX" user-domain="LEGAL" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\authServices\Branches\2015.Q3.R1\Automation\AuthenticationWebsite\AuthenticationWebsite\AuthenticationWebsite\bin\Debug\AuthenticationWebsite.dll" executed="True" result="Success" success="True" time="19.471" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="AuthenticationWebsite" executed="True" result="Success" success="True" time="19.454" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Auth_Specs" executed="True" result="Success" success="True" time="19.454" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Features" executed="True" result="Success" success="True" time="19.454" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AccountInformationPageFeature" description="Account Information Page" executed="True" result="Success" success="True" time="19.451" asserts="0">
+                    <results>
+                      <test-case name="AuthenticationWebsite.Auth_Specs.Features.AccountInformationPageFeature.PhoneNumberValidationImproperFormat" description="Phone Number Validation improper format" executed="True" result="Success" success="True" time="18.574" asserts="0">
+                        <categories>
+                          <category name="Error" />
+                          <category name="Negative" />
+                          <category name="AccountInfoPage" />
+                          <category name="PhoneNumber" />
+                        </categories>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

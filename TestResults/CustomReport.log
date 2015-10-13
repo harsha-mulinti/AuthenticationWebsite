@@ -1,0 +1,345 @@
+﻿VS filter: testpath:TestAssembly:AuthenticationWebsite/Feature:AuthLogInPage/Scenario:Invalid+Email+in+Forgot+Password | testpath:TestAssembly:AuthenticationWebsite/Feature:Account+Information+Page/Scenario:Auth+site+Login | testpath:TestAssembly:AuthenticationWebsite/Feature:Change+Password+page/Scenario:Change+Password+Page+confirmation | testpath:TestAssembly:AuthenticationWebsite/Feature:Change+Password+page/Scenario:Change+Password+and+Login%2c+lnpmsapi%2bqatestlatest72%40gmail.com | testpath:TestAssembly:AuthenticationWebsite/Feature:Account+Information+Page/Scenario:Alternative+Email+Validation+Empty+Values | testpath:TestAssembly:AuthenticationWebsite/Feature:Account+Information+Page/Scenario:Alternative+Email+Validation+improper+format | testpath:TestAssembly:AuthenticationWebsite/Feature:Change+Password+page/Scenario:Change+Password+Page+validation+message+for+same+password%2c+Password1 | testpath:TestAssembly:AuthenticationWebsite/Feature:Change+Password+page/Scenario:Change+Password+Page+validation+message+for+new+password%2c+lnpmsapi%2bqatestlatest72%40gmail.com | testpath:TestAssembly:AuthenticationWebsite/Feature:Account+Information+Page/Scenario:Alternative+Email+same+as+LogIn+Email | testpath:TestAssembly:AuthenticationWebsite/Feature:Account+Information+Page/Scenario:Update+Information+in+Account+Info+Page | testpath:TestAssembly:AuthenticationWebsite/Feature:AuthLogInPage/Scenario:LogIn+with+Incorrect+Password%2c+lnpmsapi%2bqatestlatest72%40gmail.com | testpath:TestAssembly:AuthenticationWebsite/Feature:AuthLogInPage/Scenario:Email+and+Phone+validation+in+Forgot+Password | testpath:TestAssembly:AuthenticationWebsite/Feature:Account+Information+Page/Scenario:Phone+Number+Validation+improper+format | testpath:TestAssembly:AuthenticationWebsite/Feature:Change+Password+page/Scenario:Change+Password+Page+validation+message+for+Old+password%2c+Password123 | testpath:TestAssembly:AuthenticationWebsite/Feature:AuthLogInPage/Scenario:Display+Captcha+on+typing+incorrect+password%2c+lnpmsapi%2bqatestlatest72%40gmail.com | testpath:TestAssembly:AuthenticationWebsite/Feature:AuthLogInPage/Scenario:Improper+Email+in+Forgot+Password
+Appdomain Disposed
+Test Suite Dump
+#0: AuthenticationWebsite/Default - 
+#1: Default - 
+#2: AuthenticationWebsite - 
+#3: Account Information Page - 
+#10: AuthLogInPage - 
+#16: Change Password page - 
+#4: Auth site Login - TestAssembly:AuthenticationWebsite/Feature:Account+Information+Page/Scenario:Auth+site+Login
+#5: Update Information in Account Info Page - TestAssembly:AuthenticationWebsite/Feature:Account+Information+Page/Scenario:Update+Information+in+Account+Info+Page
+#6: Alternative Email Validation Empty Values - TestAssembly:AuthenticationWebsite/Feature:Account+Information+Page/Scenario:Alternative+Email+Validation+Empty+Values
+#7: Alternative Email Validation improper format - TestAssembly:AuthenticationWebsite/Feature:Account+Information+Page/Scenario:Alternative+Email+Validation+improper+format
+#8: Alternative Email same as LogIn Email - TestAssembly:AuthenticationWebsite/Feature:Account+Information+Page/Scenario:Alternative+Email+same+as+LogIn+Email
+#9: Phone Number Validation improper format - TestAssembly:AuthenticationWebsite/Feature:Account+Information+Page/Scenario:Phone+Number+Validation+improper+format
+#11: LogIn with Incorrect Password, lnpmsapi+qatestlatest72@gmail.com - TestAssembly:AuthenticationWebsite/Feature:AuthLogInPage/Scenario:LogIn+with+Incorrect+Password%2c+lnpmsapi%2bqatestlatest72%40gmail.com
+#12: Display Captcha on typing incorrect password, lnpmsapi+qatestlatest72@gmail.com - TestAssembly:AuthenticationWebsite/Feature:AuthLogInPage/Scenario:Display+Captcha+on+typing+incorrect+password%2c+lnpmsapi%2bqatestlatest72%40gmail.com
+#13: Invalid Email in Forgot Password - TestAssembly:AuthenticationWebsite/Feature:AuthLogInPage/Scenario:Invalid+Email+in+Forgot+Password
+#14: Improper Email in Forgot Password - TestAssembly:AuthenticationWebsite/Feature:AuthLogInPage/Scenario:Improper+Email+in+Forgot+Password
+#15: Email and Phone validation in Forgot Password - TestAssembly:AuthenticationWebsite/Feature:AuthLogInPage/Scenario:Email+and+Phone+validation+in+Forgot+Password
+#17: Change Password and Login, lnpmsapi+qatestlatest72@gmail.com - TestAssembly:AuthenticationWebsite/Feature:Change+Password+page/Scenario:Change+Password+and+Login%2c+lnpmsapi%2bqatestlatest72%40gmail.com
+#18: Change Password Page confirmation - TestAssembly:AuthenticationWebsite/Feature:Change+Password+page/Scenario:Change+Password+Page+confirmation
+#19: Change Password Page validation message for new password, lnpmsapi+qatestlatest72@gmail.com - TestAssembly:AuthenticationWebsite/Feature:Change+Password+page/Scenario:Change+Password+Page+validation+message+for+new+password%2c+lnpmsapi%2bqatestlatest72%40gmail.com
+#20: Change Password Page validation message for Old password, Password123 - TestAssembly:AuthenticationWebsite/Feature:Change+Password+page/Scenario:Change+Password+Page+validation+message+for+Old+password%2c+Password123
+#21: Change Password Page validation message for same password, Password1 - TestAssembly:AuthenticationWebsite/Feature:Change+Password+page/Scenario:Change+Password+Page+validation+message+for+same+password%2c+Password1
+End: Test Suite Dump
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for AuthenticationWebsite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\mulinthx\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.2.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:Given I have a valid Credentials
+T:done: AuthLogInSteps.GivenIHaveAValidCredentials() (9.0s)
+B:And I logged into Auth UI Site
+T:done: AuthLogInSteps.GivenILoggedIntoAuthUISite() (0.1s)
+B:When I select the Account Information link on the left panel
+T:done: AccountInformationSteps.WhenISelectTheAccountInformationLinkOnTheLeftPanel() (0.1s)
+B:Then I should be able to see the account information username with values
+T:done: AccountInformationSteps.ThenIShouldBeAbleToSeeTheAccountInformationWithValues() (6.6s)
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Test #4 is finished on thread #0 as Succeeded within 15.9418844 seconds
+Test #5/0 is started on thread #0
+B:Given I have a valid Credentials
+T:done: AuthLogInSteps.GivenIHaveAValidCredentials() (8.0s)
+B:And I logged into Auth UI Site
+T:done: AuthLogInSteps.GivenILoggedIntoAuthUISite() (0.1s)
+B:When I select the Account Information link on the left panel
+T:done: AccountInformationSteps.WhenISelectTheAccountInformationLinkOnTheLeftPanel() (0.0s)
+B:And I enter Alternate email value as "Anandanagarajan.Nagayan@LexisNexis.com"
+T:done: AccountInformationSteps.WhenIEnterAlternateEmailValueAs("Anandanagarajan.N...") (2.2s)
+B:And I enter Mobile Phone value as "4692365375"
+T:done: AccountInformationSteps.WhenIEnterMobilePhoneValueAs("4692365375") (2.1s)
+B:And click on save button
+T:done: AccountInformationSteps.WhenClickOnSaveButton() (2.1s)
+B:Then I Should get a Message saying "Your information has been submitted successfully"
+T:done: AccountInformationSteps.ThenIShouldGetAMessageSaying("Your information ...") (8.7s)
+B:And I LogOut and Close the browser
+T:done: AuthLogInSteps.ThenILogOutAndCloseTheBrowser() (4.5s)
+Scheduler: considering #6 for thread #0
+Scheduler: using #6 for thread #0
+Test #6 is scheduled for thread #0
+Test #5 is finished on thread #0 as Succeeded within 27.756792 seconds
+Test #6/0 is started on thread #0
+B:Given I have a valid Credentials
+T:done: AuthLogInSteps.GivenIHaveAValidCredentials() (8.0s)
+B:And I logged into Auth UI Site
+T:done: AuthLogInSteps.GivenILoggedIntoAuthUISite() (0.0s)
+B:When I select the Account Information link on the left panel
+T:done: AccountInformationSteps.WhenISelectTheAccountInformationLinkOnTheLeftPanel() (0.1s)
+B:And I clear Alternate email field on Account Information Page
+T:done: AccountInformationSteps.WhenIClearAlternateEmailFieldOnAccountInformationPage() (2.1s)
+B:And I clear Phone Number field on Account Information Page
+T:done: AccountInformationSteps.WhenIClearPhoneNumberFieldOnAccountInformationPage() (2.1s)
+B:And click on save button
+T:done: AccountInformationSteps.WhenClickOnSaveButton() (2.1s)
+B:Then I Should get a validation saying "'Alternate Email' should not be empty."
+T:Validation Passed
+T:done: AccountInformationSteps.ThenIShouldGetAValidationSaying("'Alternate Email'...") (0.1s)
+B:And I Should get a validation saying "Please enter a valid Phone number."
+T:Validation Passed
+T:done: AccountInformationSteps.ThenIShouldGetAValidationSaying("Please enter a va...") (4.6s)
+Scheduler: considering #7 for thread #0
+Scheduler: using #7 for thread #0
+Test #7 is scheduled for thread #0
+Test #6 is finished on thread #0 as Succeeded within 18.9978841 seconds
+Test #7/0 is started on thread #0
+B:Given I have a valid Credentials
+T:done: AuthLogInSteps.GivenIHaveAValidCredentials() (8.1s)
+B:And I logged into Auth UI Site
+T:done: AuthLogInSteps.GivenILoggedIntoAuthUISite() (0.1s)
+B:When I select the Account Information link on the left panel
+T:done: AccountInformationSteps.WhenISelectTheAccountInformationLinkOnTheLeftPanel() (0.1s)
+B:And I enter Alternate email value as "Anand@"
+T:done: AccountInformationSteps.WhenIEnterAlternateEmailValueAs("Anand@") (2.1s)
+B:And I Press Tab Key
+T:done: ForgotPasswordSteps.WhenIPressTabButton() (2.1s)
+B:Then I Should get a validation saying "Please enter a valid email address."
+T:Validation Passed
+T:done: AccountInformationSteps.ThenIShouldGetAValidationSaying("Please enter a va...") (0.1s)
+B:And I LogOut and Close the browser
+T:done: AuthLogInSteps.ThenILogOutAndCloseTheBrowser() (4.3s)
+Scheduler: considering #8 for thread #0
+Scheduler: using #8 for thread #0
+Test #8 is scheduled for thread #0
+Test #7 is finished on thread #0 as Succeeded within 16.7015139 seconds
+Test #8/0 is started on thread #0
+B:Given I have a valid Credentials
+T:done: AuthLogInSteps.GivenIHaveAValidCredentials() (8.3s)
+B:And I logged into Auth UI Site
+T:done: AuthLogInSteps.GivenILoggedIntoAuthUISite() (0.1s)
+B:When I select the Account Information link on the left panel
+T:done: AccountInformationSteps.WhenISelectTheAccountInformationLinkOnTheLeftPanel() (0.0s)
+B:And I enter Alternate email value same as LogIn Email
+T:done: AccountInformationSteps.WhenIEnterAlternateEmailValueSameAsLogInEmail() (2.1s)
+B:And click on save button
+T:done: AccountInformationSteps.WhenClickOnSaveButton() (2.0s)
+B:Then I should get Error Message "Alternate Email is same as Email"
+T:Validation Passed
+T:done: ForgotPasswordSteps.ThenIShouldGetErrorMessage("Alternate Email i...") (4.5s)
+Scheduler: considering #9 for thread #0
+Scheduler: using #9 for thread #0
+Test #9 is scheduled for thread #0
+Test #8 is finished on thread #0 as Succeeded within 17.1073776 seconds
+Test #9/0 is started on thread #0
+B:Given I have a valid Credentials
+T:done: AuthLogInSteps.GivenIHaveAValidCredentials() (8.1s)
+B:And I logged into Auth UI Site
+T:done: AuthLogInSteps.GivenILoggedIntoAuthUISite() (0.1s)
+B:When I select the Account Information link on the left panel
+T:done: AccountInformationSteps.WhenISelectTheAccountInformationLinkOnTheLeftPanel() (0.1s)
+B:And I enter Mobile Phone value as "123456"
+T:done: AccountInformationSteps.WhenIEnterMobilePhoneValueAs("123456") (2.1s)
+B:And I Press Tab Key
+T:done: ForgotPasswordSteps.WhenIPressTabButton() (2.1s)
+B:Then I Should get a validation saying "Please enter a valid Phone number."
+T:Validation Passed
+T:done: AccountInformationSteps.ThenIShouldGetAValidationSaying("Please enter a va...") (4.6s)
+Scheduler: considering #11 for thread #0
+Scheduler: using #11 for thread #0
+Test #11 is scheduled for thread #0
+Test #9 is finished on thread #0 as Succeeded within 17.0337245 seconds
+Test #11/0 is started on thread #0
+B:Given I enter the lnpmsapi+qatestlatest72@gmail.com and Password
+T:done: AuthLogInSteps.GivenIEnterTheAnd("lnpmsapi+qatestla...", "Password") (4.0s)
+B:When I click on SignIn Button
+T:done: AuthLogInSteps.WhenIClickOnSignInButton() (2.1s)
+B:Then I should be able to see the Error message as "Invalid email or password, please try again."
+T:done: AuthLogInSteps.ThenIShouldBeAbleToSeeTheErrorMessageAs("Invalid email or ...") (1.4s)
+Scheduler: considering #12 for thread #0
+Scheduler: using #12 for thread #0
+Test #12 is scheduled for thread #0
+Test #11 is finished on thread #0 as Succeeded within 7.4745536 seconds
+Test #12/0 is started on thread #0
+B:Given I have Auth Site LogIn page in the browser
+T:done: AuthLogInSteps.GivenIHaveAuthSiteLogInPageInTheBrowser() (3.8s)
+B:When I enter three times the lnpmsapi+qatestlatest72@gmail.com and Password
+T:done: AuthLogInSteps.WhenIEnterThreeTimesTheAnd("lnpmsapi+qatestla...", "Password") (13.0s)
+B:Then I should be able to see security check to enter the captcha
+T:done: AuthLogInSteps.ThenIShouldBeAbleToSeeSecurityCheckToEnterTheCaptcha() (1.1s)
+Scheduler: considering #13 for thread #0
+Scheduler: using #13 for thread #0
+Test #13 is scheduled for thread #0
+Test #12 is finished on thread #0 as Succeeded within 17.9829845 seconds
+Test #13/0 is started on thread #0
+B:Given I have Auth Site LogIn page in the browser
+T:done: AuthLogInSteps.GivenIHaveAuthSiteLogInPageInTheBrowser() (3.8s)
+B:When I click on Forgot Password
+T:done: ForgotPasswordSteps.WhenIClickOnForgotPassword() (2.1s)
+B:Then I should be redirected to Forgot Password page asking for Email Address
+T:done: ForgotPasswordSteps.ThenIShouldBeRedirectedToForgotPasswordPageAskingForEmailAddress() (0.0s)
+B:When I enter Invalid Email "Anand@LexisNexis.com" and click on Next
+T:done: ForgotPasswordSteps.WhenIEnterInvalidEmailAndClickOnNext("Anand@LexisNexis.com") (2.2s)
+B:Then I should get Error Message "Already have an account?"
+T:Validation Passed
+T:done: ForgotPasswordSteps.ThenIShouldGetErrorMessage("Already have an a...") (0.1s)
+B:When I click on Cancel Button
+T:done: ForgotPasswordSteps.WhenIClickOnCancelButton() (2.0s)
+B:Then I should see Auth LogIn page
+T:done: ForgotPasswordSteps.ThenIShouldSeeAuthLogInPage() (0.1s)
+B:And I close the Browser
+T:done: AuthLogInSteps.ThenICloseTheBrowser() (1.4s)
+Scheduler: considering #14 for thread #0
+Scheduler: using #14 for thread #0
+Test #14 is scheduled for thread #0
+Test #13 is finished on thread #0 as Succeeded within 11.6293524 seconds
+Test #14/0 is started on thread #0
+B:Given I have Auth Site LogIn page in the browser
+T:done: AuthLogInSteps.GivenIHaveAuthSiteLogInPageInTheBrowser() (3.8s)
+B:When I click on Forgot Password
+T:done: ForgotPasswordSteps.WhenIClickOnForgotPassword() (2.0s)
+B:Then I should be redirected to Forgot Password page asking for Email Address
+T:done: ForgotPasswordSteps.ThenIShouldBeRedirectedToForgotPasswordPageAskingForEmailAddress() (0.1s)
+B:When I enter Improper Email "Anand"
+T:done: ForgotPasswordSteps.WhenIEnterImproperEmail("Anand") (0.1s)
+B:And I Press Tab Key
+T:done: ForgotPasswordSteps.WhenIPressTabButton() (2.1s)
+B:Then I should be able to see the Error message as "Please enter a valid email address."
+T:done: AuthLogInSteps.ThenIShouldBeAbleToSeeTheErrorMessageAs("Please enter a va...") (0.0s)
+B:When I click on Cancel Button
+T:done: ForgotPasswordSteps.WhenIClickOnCancelButton() (2.0s)
+B:Then I should see Auth LogIn page
+T:done: ForgotPasswordSteps.ThenIShouldSeeAuthLogInPage() (0.1s)
+B:And I close the Browser
+T:done: AuthLogInSteps.ThenICloseTheBrowser() (1.3s)
+Scheduler: considering #15 for thread #0
+Scheduler: using #15 for thread #0
+Test #15 is scheduled for thread #0
+Test #14 is finished on thread #0 as Succeeded within 11.5393986 seconds
+Test #15/0 is started on thread #0
+B:Given I have Auth Site LogIn page in the browser
+T:done: AuthLogInSteps.GivenIHaveAuthSiteLogInPageInTheBrowser() (3.9s)
+B:When I click on Forgot Password
+T:done: ForgotPasswordSteps.WhenIClickOnForgotPassword() (2.1s)
+B:Then I should be redirected to Forgot Password page asking for Email Address
+T:done: ForgotPasswordSteps.ThenIShouldBeRedirectedToForgotPasswordPageAskingForEmailAddress() (0.0s)
+B:When I enter Valid Email "lnpmsapi+qatestlatest72@gmail.com" and click on Next
+T:done: ForgotPasswordSteps.WhenIEnterInvalidEmailAndClickOnNext("lnpmsapi+qatestla...") (2.2s)
+B:Then I should be displayed the Alternate Email and Phone Number Details
+T:done: ForgotPasswordSteps.ThenIShouldBeDisplayedTheAlternateEmailAndPhoneNumberDetails() (0.1s)
+B:When I click on Cancel Button
+T:done: ForgotPasswordSteps.WhenIClickOnCancelButton() (2.0s)
+B:Then I should see Auth LogIn page
+T:done: ForgotPasswordSteps.ThenIShouldSeeAuthLogInPage() (0.1s)
+B:And I close the Browser
+T:done: AuthLogInSteps.ThenICloseTheBrowser() (1.4s)
+Scheduler: considering #17 for thread #0
+Scheduler: using #17 for thread #0
+Test #17 is scheduled for thread #0
+Test #15 is finished on thread #0 as Succeeded within 11.7227895 seconds
+Test #17/0 is started on thread #0
+B:Given I have a valid Credentials
+T:done: AuthLogInSteps.GivenIHaveAValidCredentials() (8.2s)
+B:And I logged into Auth UI Site
+T:done: AuthLogInSteps.GivenILoggedIntoAuthUISite() (0.1s)
+B:When I select the Change Password link on the left panel
+T:done: ChangePasswordSteps.WhenISelectTheChangePasswordLinkOnTheLeftPanel() (0.0s)
+B:And I enter the old Password1
+T:done: ChangePasswordSteps.WhenIEnterTheOld("Password1") (0.3s)
+B:And enter values in Password2 and Password2 as same
+T:done: ChangePasswordSteps.WhenEnterValuesInAndAsSame("Password2", "Password2") (0.2s)
+B:And click on save button
+T:done: AccountInformationSteps.WhenClickOnSaveButton() (2.1s)
+B:Then I Should get a Message saying "Your new password has been submitted successfully"
+T:done: AccountInformationSteps.ThenIShouldGetAMessageSaying("Your new password...") (8.5s)
+B:When I Logout of the Auth Site
+T:done: AuthLogInSteps.WhenILogoutOfTheAuthSite() (3.2s)
+B:And I logIn with the lnpmsapi+qatestlatest72@gmail.com and Password2
+T:done: AuthLogInSteps.WhenILogInWithTheAnd("lnpmsapi+qatestla...", "Password2") (4.4s)
+B:Then I should be logged into Auth UI Site successfully
+T:done: AuthLogInSteps.GivenILoggedIntoAuthUISite() (0.1s)
+B:When I select the Change Password link on the left panel
+T:done: ChangePasswordSteps.WhenISelectTheChangePasswordLinkOnTheLeftPanel() (0.1s)
+B:And I revert the Password2 changes
+T:done: ChangePasswordSteps.WhenIRevertTheChanges("Password2") (0.4s)
+B:And click on save button
+T:done: AccountInformationSteps.WhenClickOnSaveButton() (2.1s)
+B:Then I Should get a Message saying "Your new password has been submitted successfully"
+T:done: AccountInformationSteps.ThenIShouldGetAMessageSaying("Your new password...") (8.4s)
+B:And I LogOut and Close the browser
+T:done: AuthLogInSteps.ThenILogOutAndCloseTheBrowser() (4.6s)
+Scheduler: considering #18 for thread #0
+Scheduler: using #18 for thread #0
+Test #18 is scheduled for thread #0
+Test #17 is finished on thread #0 as Succeeded within 42.5637342 seconds
+Test #18/0 is started on thread #0
+B:Given I have a valid Credentials
+T:done: AuthLogInSteps.GivenIHaveAValidCredentials() (8.1s)
+B:And I logged into Auth UI Site
+T:done: AuthLogInSteps.GivenILoggedIntoAuthUISite() (0.1s)
+B:When I select the Change Password link on the left panel
+T:done: ChangePasswordSteps.WhenISelectTheChangePasswordLinkOnTheLeftPanel() (0.1s)
+B:And click on save button
+T:done: AccountInformationSteps.WhenClickOnSaveButton() (2.0s)
+B:Then I Should get a validation saying "Password is required"
+T:Validation Passed
+T:done: AccountInformationSteps.ThenIShouldGetAValidationSaying("Password is required") (4.6s)
+Scheduler: considering #19 for thread #0
+Scheduler: using #19 for thread #0
+Test #19 is scheduled for thread #0
+Test #18 is finished on thread #0 as Succeeded within 14.9106844 seconds
+Test #19/0 is started on thread #0
+B:Given I have a valid Credentials
+T:done: AuthLogInSteps.GivenIHaveAValidCredentials() (8.8s)
+B:And I logged into Auth UI Site
+T:done: AuthLogInSteps.GivenILoggedIntoAuthUISite() (0.1s)
+B:When I select the Change Password link on the left panel
+T:done: ChangePasswordSteps.WhenISelectTheChangePasswordLinkOnTheLeftPanel() (0.0s)
+B:And I enter the old Password1
+T:done: ChangePasswordSteps.WhenIEnterTheOld("Password1") (0.3s)
+B:And enter values in Password2 and Password3 as different
+T:done: ChangePasswordSteps.WhenEnterValuesInAndAsDifferent("Password2", "Password3") (0.2s)
+B:And click on save button
+T:done: AccountInformationSteps.WhenClickOnSaveButton() (2.1s)
+B:Then I Should get a validation Error saying "The password and confirm password do not match."
+T:done: ChangePasswordSteps.ThenIShouldGetAValidationErrorSaying("The password and ...") (4.6s)
+Scheduler: considering #20 for thread #0
+Scheduler: using #20 for thread #0
+Test #20 is scheduled for thread #0
+Test #19 is finished on thread #0 as Succeeded within 16.0575821 seconds
+Test #20/0 is started on thread #0
+B:Given I have a valid Credentials
+T:done: AuthLogInSteps.GivenIHaveAValidCredentials() (8.4s)
+B:And I logged into Auth UI Site
+T:done: AuthLogInSteps.GivenILoggedIntoAuthUISite() (0.1s)
+B:When I select the Change Password link on the left panel
+T:done: ChangePasswordSteps.WhenISelectTheChangePasswordLinkOnTheLeftPanel() (0.1s)
+B:And I enter the old Password123
+T:done: ChangePasswordSteps.WhenIEnterTheOld("Password123") (0.2s)
+B:And enter values in Password2 and Password2 as same
+T:done: ChangePasswordSteps.WhenEnterValuesInAndAsSame("Password2", "Password2") (0.2s)
+B:And click on save button
+T:done: AccountInformationSteps.WhenClickOnSaveButton() (2.1s)
+B:Then I Should get a validation Error displayed as "Old password entered in not correct."
+T:done: ChangePasswordSteps.ThenIShouldGetAValidationErrorDisplayedAs("Old password ente...") (4.9s)
+Scheduler: considering #21 for thread #0
+Scheduler: using #21 for thread #0
+Test #21 is scheduled for thread #0
+Test #20 is finished on thread #0 as Succeeded within 15.9671737 seconds
+Test #21/0 is started on thread #0
+B:Given I have a valid Credentials
+T:done: AuthLogInSteps.GivenIHaveAValidCredentials() (8.4s)
+B:And I logged into Auth UI Site
+T:done: AuthLogInSteps.GivenILoggedIntoAuthUISite() (0.0s)
+B:When I select the Change Password link on the left panel
+T:done: ChangePasswordSteps.WhenISelectTheChangePasswordLinkOnTheLeftPanel() (0.1s)
+B:And I enter the old Password1
+T:done: ChangePasswordSteps.WhenIEnterTheOld("Password1") (0.3s)
+B:And enter values in Password1 and Password1 as same
+T:done: ChangePasswordSteps.WhenEnterValuesInAndAsSame("Password1", "Password1") (0.2s)
+B:And click on save button
+T:done: AccountInformationSteps.WhenClickOnSaveButton() (2.1s)
+B:Then I should get Error Message "'New Password' must not be the same as 'Old Password'"
+T:Validation Passed
+T:done: ForgotPasswordSteps.ThenIShouldGetErrorMessage("'New Password' mu...") (4.6s)
+Test #21 is finished on thread #0 as Succeeded within 15.6635167 seconds
+Appdomain Disposed
+Total: 16
+Succeeded: 16
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
